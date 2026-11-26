@@ -11,6 +11,7 @@ export type Produit = {
     prix: number;
     categorie: Categorie;
     stock: number;
+    image?: string;
 };
 
 export type LignePanier = {
